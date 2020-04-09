@@ -1,0 +1,9 @@
+.toto-enter {
+    opacity: 0;
+    transform: translateX(-500px);
+}
+.toto-enter-active {
+    transform: translateX(0px);
+    opacity: 1;
+    transition: all 2s ease-in-out;
+}
